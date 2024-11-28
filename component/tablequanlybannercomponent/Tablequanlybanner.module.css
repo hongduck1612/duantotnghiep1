@@ -1,0 +1,55 @@
+/* BannerManagement.module.css */
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btnAdd {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btnAdd:hover {
+  background-color: #1976D2;
+}
+
+.btnDelete {
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: #F44336;
+  color: white;
+  cursor: pointer;
+}
+
+.btnDelete:hover {
+  background-color: #d32f2f;
+}
